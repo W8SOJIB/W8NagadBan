@@ -2,7 +2,6 @@ import requests
 import random
 import string
 import threading
-import webbrowser
 import os
 import subprocess
 from termcolor import colored
@@ -18,9 +17,6 @@ def install_missing_modules():
 
 # Ensure required modules are installed
 install_missing_modules()
-
-# Open the specified link when the tool runs
-webbrowser.open("https://t.me/W8TeamSB")
 
 # Display the banner using Python instead of figlet
 banner = r"""
